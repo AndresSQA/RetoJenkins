@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="1" name="Se desea Obtener la informacion de usuarios mediante servicio rest y paginacion" skipped="0" tests="1" time="7.16" timestamp="2024-05-03 04:14:42"><testcase name="Obtener usuarios"><failure message="&#13;&#10;expected: 201&#13;&#10; but was: 200" type="org.opentest4j.AssertionFailedError">&#13;
+expected: 201&#13;
+ but was: 200</failure><system-err>&#13;
+expected: 201&#13;
+ but was: 200&#13;
+in.reqres.stepDefinitions.ObtenerUsuarios.podra_ver_los_datos_de_usuarios_en_la_pagina_enviada_y_el_con_el_status(ObtenerUsuarios.java:46)&#13;
+✽.podra ver los datos de usuarios en la pagina enviada y el 201 con el status(file:///C:/Andres/Automatizacion/RestProjectJenkins/src/test/java/in/reqres/features/ObtenerUsuarios.feature:7)&#13;
+</system-err></testcase></testsuite>

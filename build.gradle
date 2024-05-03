@@ -1,0 +1,52 @@
+plugins {
+    id 'java'
+    id 'eclipse'
+    id 'idea'
+    id "net.serenity-bdd.serenity-gradle-plugin" version "3.6.7"
+}
+
+defaultTasks 'clean', 'test'
+
+repositories {
+    mavenCentral()
+}
+
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+ext {
+    slf4jVersion = '1.7.7'
+    serenityCoreVersion = '3.6.12'
+    junitVersion = '5.8.2'
+    assertJVersion = '3.22.0'
+    logbackVersion = '1.4.7'
+}
+
+serenity {
+    reports = ["single-page-html"]
+}
+
+dependencies {
+    implementation 'org.slf4j:slf4j-api:2.0.5'
+
+    implementation "net.serenity-bdd:serenity-cucumber:${serenityCoreVersion}"
+    implementation "org.junit.vintage:junit-vintage-engine:${junitVersion}"
+    implementation 'net.serenity-bdd:serenity-rest-assured:3.6.12'
+    implementation "net.serenity-bdd:serenity-screenplay-rest:${serenityCoreVersion}"
+    implementation 'org.seleniumhq.selenium:selenium-java:4.11.0'
+    implementation "net.serenity-bdd:serenity-screenplay-webdriver:${serenityCoreVersion}"
+
+    testImplementation 'io.github.bonigarcia:webdrivermanager:5.4.1'
+
+}
+
+test {
+    maxParallelForks 3
+    systemProperty "cucumber.filter.tags", System.getProperty("cucumber.filter.tags")
+    useJUnitPlatform()
+    testLogging.showStandardStreams = true
+    systemProperties System.getProperties()
+}
+
+gradle.startParameter.continueOnFailure = true

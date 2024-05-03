@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="in.reqres.runners.ObtenerUsuarioRunner" tests="1" skipped="0" failures="1" errors="0" timestamp="2024-05-03T21:14:42" hostname="SQAMED-SQA4389" time="7.672">
+  <properties/>
+  <testcase name="Obtener usuarios" classname="in.reqres.runners.ObtenerUsuarioRunner" time="7.672">
+    <failure message="org.opentest4j.AssertionFailedError: &#13;&#10;expected: 201&#13;&#10; but was: 200" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: 
+expected: 201
+ but was: 200
+	at java.base@11.0.18/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base@11.0.18/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base@11.0.18/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at app//in.reqres.stepDefinitions.ObtenerUsuarios.podra_ver_los_datos_de_usuarios_en_la_pagina_enviada_y_el_con_el_status(ObtenerUsuarios.java:46)
+	at ✽.podra ver los datos de usuarios en la pagina enviada y el 201 con el status(file:///C:/Andres/Automatizacion/RestProjectJenkins/src/test/java/in/reqres/features/ObtenerUsuarios.feature:7)
+</failure>
+  </testcase>
+  <system-out><![CDATA[Body - Respuesta del servicio: {"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://reqres.in/img/faces/4-image.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://reqres.in/img/faces/6-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+StatusCode= 200
+]]></system-out>
+  <system-err><![CDATA[?[32m?[1m??????????????????????????????????????????????????????????????????????????????????????[0m
+?[32m?[1m??[0m Share your Cucumber Report with your team at ?[36m?[1m?[4mhttps://reports.cucumber.io?[0m          ?[32m?[1m??[0m
+?[32m?[1m??[0m Activate publishing with one of the following:                                    ?[32m?[1m??[0m
+?[32m?[1m??[0m                                                                                   ?[32m?[1m??[0m
+?[32m?[1m??[0m src/test/resources/cucumber.properties:          ?[36mcucumber.publish.enabled?[0m=?[36mtrue?[0m    ?[32m?[1m??[0m
+?[32m?[1m??[0m src/test/resources/junit-platform.properties:    ?[36mcucumber.publish.enabled?[0m=?[36mtrue?[0m    ?[32m?[1m??[0m
+?[32m?[1m??[0m Environment variable:                            ?[36mCUCUMBER_PUBLISH_ENABLED?[0m=?[36mtrue?[0m    ?[32m?[1m??[0m
+?[32m?[1m??[0m JUnit:                                           ?[36m@CucumberOptions?[0m(publish = ?[36mtrue?[0m) ?[32m?[1m??[0m
+?[32m?[1m??[0m                                                                                   ?[32m?[1m??[0m
+?[32m?[1m??[0m More information at ?[36mhttps://cucumber.io/docs/cucumber/environment-variables/?[0m      ?[32m?[1m??[0m
+?[32m?[1m??[0m                                                                                   ?[32m?[1m??[0m
+?[32m?[1m??[0m Disable this message with one of the following:                                   ?[32m?[1m??[0m
+?[32m?[1m??[0m                                                                                   ?[32m?[1m??[0m
+?[32m?[1m??[0m src/test/resources/cucumber.properties:          ?[36mcucumber.publish.quiet?[0m=?[36mtrue?[0m      ?[32m?[1m??[0m
+?[32m?[1m??[0m src/test/resources/junit-platform.properties:    ?[36mcucumber.publish.quiet?[0m=?[36mtrue?[0m      ?[32m?[1m??[0m
+?[32m?[1m??????????????????????????????????????????????????????????????????????????????????????[0m
+]]></system-err>
+</testsuite>

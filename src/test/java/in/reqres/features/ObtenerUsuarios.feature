@@ -8,4 +8,4 @@ Feature: Se desea Obtener la informacion de usuarios mediante servicio rest y pa
 
     Examples:
       | pagina | codigo |
-      | 1      | 200    |
+      | 2      | 200    |

@@ -8,7 +8,7 @@ GRADLE_HOME = tool 'Gradle'
 }
 
     stages {
-        stage('Build') {
+        stage("Build") {
             steps {
                 script{
                 bat "${GRADLE_HOME}\\gradle build"

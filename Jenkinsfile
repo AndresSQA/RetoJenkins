@@ -1,8 +1,3 @@
-import groovy.json.JsonSluperClassic
-
-def JsonParse(def json){
-new groovy.json.JsonSluperClassic().parseText(json)
-}
 
 pipeline {
     agent any

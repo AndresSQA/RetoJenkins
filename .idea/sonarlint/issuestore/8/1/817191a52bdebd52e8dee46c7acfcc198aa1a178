@@ -1,0 +1,7 @@
+
+G	java:S106"+Replace this use of System.out by a logger.(ş˜Ì°8Ëşô1
+G	java:S106"+Replace this use of System.out by a logger.(åÛÅ—8Ëşô1
+[
+java:S1128">Remove this unused import 'net.serenitybdd.rest.SerenityRest'.(ˆéÌ‚8íÒœ‚ô1
+e
+java:S1128"CRemove this unused import 'net.serenitybdd.screenplay.Performable'.(ğ”„Îüÿÿÿÿ8íÒœ‚ô1

@@ -39,7 +39,7 @@ dependencies {
 
     testImplementation 'io.github.bonigarcia:webdrivermanager:5.4.1'
 
-    implementation 'org.codehaus.groovy:groovy-all:3.0.17'
+
 
 }
 
